@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CBUS</title>
+    <link rel="icon" href="SOURCE/bus.png" type="image/png">
+    <link rel="stylesheet" href="CSS/about.css">
+</head>
+
+<body>
+        <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo"><b>CBUS</b></div>
+        <ul class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="routes.html">Routes</a>
+            <a href="announcements.html">Announcements</a>
+            <a href="track.html">Track</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+        </ul>
+    </nav>
+
+    <!-- Hamburger Button -->
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+
+    <!-- Overlay -->
+    <div class="overlay" onclick="closeMenu()"></div>
+
+    <!-- Side Menu -->
+    <div class="side-menu" id="sideMenu">
+        <h3>Menu</h3>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="routes.html">Routes</a></li>
+            <li><a href="announcements.html">Announcements</a></li>
+            <li><a href="track.html">Track</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li onclick="toggleTheme()" id="themeToggle">Dark/Light Theme</li>
+        </ul>
+    </div>
+    <section class="about-section">
+
+        <div class="about-container">
+
+            <!-- LEFT SIDE (TEXT + NEWSLETTER) -->
+            <div class="about-text">
+                <h2>About CBUS</h2>
+                <h3>CBUS makes college commuting simple and stress - free.</h3>
+                <p>CBUS (College Bus Information System) is designed to make campus commuting easier and more reliable
+                    for students and staff.</p>
+                <p>It provides clear details about bus routes, stops, timings, and driver contacts, all in one place.
+                </p>
+                <p>With CBUS, you can stay informed about delays, announcements, and changes, ensuring a smooth and
+                    stress - free travel experience every day.</p>
+                <p>For more suggestions you can reach out to the official cbus mail-
+                    <em>princecbus@gmail.com</mark></em></p>
+
+
+                <!-- NEWSLETTER BOX -->
+                <div class="newsletter">
+                    <h3>Subscribe to Newsletter</h3>
+                    <p>Get latest route updates and announcements.</p>
+
+                    <form>
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <!-- RIGHT SIDE (VIDEO) -->
+            <div class="about-video">
+                <iframe width="397" height="706" src="https://www.youtube.com/embed/siC7aoZzgJE" title="Prince group of institutions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </section>
+    <script src="JS/about.js"></script>
+    <footer class="footer">
+        <p>&copy; 2026 CBUS. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

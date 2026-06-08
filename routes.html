@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CBUS</title>
+    <link rel="icon" href="SOURCE/bus.png" type="image/png">
+    <link rel="stylesheet" href="CSS/routes.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo"><b>CBUS</b></div>
+        <ul class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="routes.html">Routes</a>
+            <a href="announcements.html">Announcements</a>
+            <a href="track.html">Track</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+        </ul>
+    </nav>
+
+    <!-- Hamburger Button -->
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+
+    <!-- Overlay -->
+    <div class="overlay" onclick="closeMenu()"></div>
+
+    <!-- Side Menu -->
+    <div class="side-menu" id="sideMenu">
+        <h3>Menu</h3>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="routes.html">Routes</a></li>
+            <li><a href="announcements.html">Announcements</a></li>
+            <li><a href="track.html">Track</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li onclick="toggleTheme()" id="themeToggle">Dark/Light Theme</li>
+        </ul>
+    </div>
+
+    <div class="table-container">
+        <table class="ui-table">
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>ROUTE NUMBER</th>
+                    <th>STARTING PLACE</th>
+                    <th>NO OF STOPS</th>
+                    <th>VIEW THE STOPS</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <!-- Route 1 -->
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Prince School</td>
+                    <td>5</td>
+                    <td>
+                        <div class="view-item" data-route="route1">
+                            Click here to view the stops
+                            <div class="stop-box">
+                                <div>Madipakkam Koot Road</div>
+                                <div>Independence Day Park</div>
+                                <div>Karumari Amman Kovil</div>
+                                <div>Kakkan Bridge</div>
+                                <div>Veeramani Nagar</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- Route 2 -->
+                <tr>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>Thiruvotriyur</td>
+                    <td>7</td>
+                    <td>
+                        <div class="view-item" data-route="route2">
+                            Click here to view the stops <div class="stop-box">
+                                <div>Manali Market</div>
+                                <div>Periyar Nagar</div>
+                                <div>Beach Station</div>
+                                <div>Ratna Cafe</div>
+                                <div>Adyar Signal</div>
+                                <div>Semmanchery Arch</div>
+                                <div>Sithalapakkam Junction</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- Route 3 -->
+                <tr>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>Teynampet</td>
+                    <td>6</td>
+                    <td>
+                        <div class="view-item" data-route="route3">
+                            Click here to view the stops <div class="stop-box">
+                                <div>Teynampet Metro</div>
+                                <div>Velachery Check Post</div>
+                                <div>Velachery Grt</div>
+                                <div>Taramani</div>
+                                <div>Thuraipakkam</div>
+                                <div>Sholinganallur</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- Route 4 -->
+                <tr>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>Chengalpattu</td>
+                    <td>5</td>
+                    <td>
+                        <div class="view-item" data-route="route4">
+                            Click here to view the stops <div class="stop-box">
+                                <div>Chengalpattu New Bus Stand</div>
+                                <div>Kattankulattur Bus Stop</div>
+                                <div>Guduvanchery E.B. Office</div>
+                                <div>Mannivakkam Koot Road</div>
+                                <div>Vandalur Zoo</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- Route 5 -->
+                <tr>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>Kundrathur</td>
+                    <td>7</td>
+                    <td>
+                        <div class="view-item" data-route="route5">
+                            Click here to view the stops <div class="stop-box">
+                                <div>Kovur</div>
+                                <div>Pammal</div>
+                                <div>Chorempet Bus Stop</div>
+                                <div>Varadharaja Theatre</div>
+                                <div>Indira Nagar</div>
+                                <div>Bharath College</div>
+                                <div>Als Nagar</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- Route 6 -->
+                <tr>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>Pattabiram</td>
+                    <td>6</td>
+                    <td>
+                        <div class="view-item" data-route="route6">
+                            Click here to view the stops <div class="stop-box">
+                                <div>Avadi</div>
+                                <div>Karaiyanchavadi</div>
+                                <div>Iyyappanthangal</div>
+                                <div>Chormpet Mit</div>
+                                <div>Mcc</div>
+                                <div>Anna Nagar</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <!-- Route 7 -->
+                <tr>
+                    <td>7</td>
+                    <td>7</td>
+                    <td>Red Hills</td>
+                    <td>6</td>
+                    <td>
+                        <div class="view-item" data-route="route7">
+                            Click here to view the stops
+                            <div class="stop-box">
+                                <div>Oragadam</div>
+                                <div>Vavin Mogappair</div>
+                                <div>Mmm Hospital</div>
+                                <div>Arumbakkam</div>
+                                <div>Vadapalani</div>
+                                <div>Pallavaram Bus Stop</div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <!-- Popup Box -->
+    <div id="popupBox" class="popup-box">
+        <h3>Route Stops</h3>
+        <div class="popup-content" id="popupContent"></div>
+        <button onclick="closePopup()" class="popup-close">×</button>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 CBUS. All rights reserved.</p>
+    </footer>
+    <script src="JS/routes.js"></script>
+</body>
+
+</html>

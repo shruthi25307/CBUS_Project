@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CBUS - Announcements</title>
+    <link rel="icon" href="SOURCE/bus.png" type="image/png">
+    <link rel="stylesheet" href="CSS/announcements.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo"><b>CBUS</b></div>
+        <ul class="nav-links">
+            <a href="home.html"> Home </a>
+            <a href="routes.html"> Routes </a>
+            <a href="announcements.html"> Announcements </a>
+            <a href="track.html"> Track </a>
+            <a href="about.html"> About </a>
+            <a href="contact.html"> Contact Us </a>
+        </ul>
+    </nav>
+
+    <!-- Hamburger Button -->
+    <button class="hamburger">&#9776;</button>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Side Menu -->
+    <div class="side-menu" id="sideMenu">
+        <h3>Menu</h3>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="routes.html">Routes</a></li>
+            <li><a href="announcements.html">Announcements</a></li>
+            <li><a href="track.html">Track</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li id="themeToggle">Dark/Light Theme</li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <section class="announcement-header">
+            <h2>Bus Service Updates</h2>
+            <p id ="abcd">Latest information on bus route timings</p>
+        </section>
+
+        <section class="announcement-list">
+            <!-- INFO CARDS -->
+            <div class="announcement-card info">
+                <h4>Route 1</h4>
+                <span class="meta">Updated: Today</span>
+                <p>Route 1 buses are running on time with no reported delays.</p>
+            </div>
+
+            <div class="announcement-card info">
+                <h4>Route 2</h4>
+                <span class="meta">Updated: Today</span>
+                <p>Services on Route 2 are operating normally as per schedule.</p>
+            </div>
+
+            <div class="announcement-card info">
+                <h4>Route 3</h4>
+                <span class="meta">Updated: Today</span>
+                <p>Route 3 buses are running smoothly without any delays.</p>
+            </div>
+
+            <!-- WARNING CARDS -->
+            <div class="announcement-card warning">
+                <h4>Route 4</h4>
+                <span class="meta">Updated: Today</span>
+                <p>Route 4 buses are delayed by approximately 10 minutes due to traffic.</p>
+            </div>
+
+            <div class="announcement-card warning">
+                <h4>Route 5</h4>
+                <span class="meta">Updated: Today</span>
+                <p>Buses on Route 5 may experience delays of up to 15 minutes.</p>
+            </div>
+
+            <div class="announcement-card info">
+                <h4>Route 6</h4>
+                <span class="meta">Updated: Today</span>
+                <p>Route 6 buses are operating on schedule with smooth traffic flow.</p>
+            </div>
+
+            <div class="announcement-card warning">
+                <h4>Route 7</h4>
+                <span class="meta">Updated: Today</span>
+                <p>Route 7 services may face minor delays due to road maintenance work.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 CBUS. All rights reserved.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="JS/announcements.js"></script>
+</body>
+</html>

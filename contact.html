@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CBUS</title>
+    <link rel="icon" href="SOURCE/bus.png" type="image/png">
+    <link rel="stylesheet" href="CSS/contact.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo"><b>CBUS</b></div>
+        <ul class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="routes.html">Routes</a>
+            <a href="announcements.html">Announcements</a>
+            <a href="track.html">Track</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+        </ul>
+    </nav>
+
+    <!-- Hamburger Button -->
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+
+    <!-- Overlay -->
+    <div class="overlay" onclick="closeMenu()"></div>
+
+    <!-- Side Menu -->
+    <div class="side-menu" id="sideMenu">
+        <h3>Menu</h3>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="routes.html">Routes</a></li>
+            <li><a href="announcements.html">Announcements</a></li>
+            <li><a href="track.html">Track</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li onclick="toggleTheme()" id="themeToggle">Dark/Light Theme</li>
+        </ul>
+    </div>
+
+    <div class="table-container">
+        <table class="contact-table" cellpadding="15" cellspacing="15">
+            <tr class="table-header">
+                <th class="th-sno">S.NO</th>
+                <th class="th-route">ROUTE NUMBER</th>
+                <th class="th-driver">CONTACT DRIVER</th>
+                <th class="th-staff">CONTACT STAFF INCHARGE</th>
+            </tr>
+            <tr class="table-row">
+                <td class="td-sno">1</td>
+                <td class="td-route">1</td>
+                <td class="td-driver">RAJENDRAN- <a href="tel:9884727360">9884727360</a></td>
+                <td class="td-staff">E. MONISHA- <a href="tel:8190075577">8190075577</a></td>
+            </tr>
+            <tr class="table-row">
+                <td class="td-sno">2</td>
+                <td class="td-route">2</td>
+                <td class="td-driver">SIVA- <a href="tel:9884808111">9884808111</a></td>
+                <td class="td-staff">SHERIL- <a href="tel:8825840742">8825840742</a></td>
+            </tr>
+            <tr class="table-row">
+                <td class="td-sno">3</td>
+                <td class="td-route">3</td>
+                <td class="td-driver">VEERAPPAN- <a href="tel:8925067223">8925067223</a></td>
+                <td class="td-staff">REENA- <a href="tel:9840988141">9840988141</a></td>
+            </tr>
+            <tr class="table-row">
+                <td class="td-sno">4</td>
+                <td class="td-route">4</td>
+                <td class="td-driver">MADHURAI- <a href="tel:6380998233">6380998233</a></td>
+                <td class="td-staff">UMA MAHESHWARI- <a href="tel:9962103890">9962103890</a></td>
+            </tr>
+            <tr class="table-row">
+                <td class="td-sno">5</td>
+                <td class="td-route">5</td>
+                <td class="td-driver">KUMAR- <a href="tel:8939380463">8939380463</a></td>
+                <td class="td-staff">N. DIVYA- <a href="tel:7358217622">7358217622</a></td>
+            </tr>
+            <tr class="table-row">
+                <td class="td-sno">6</td>
+                <td class="td-route">6</td>
+                <td class="td-driver">APPAR- <a href="tel:7358979239">7358979239</a></td>
+                <td class="td-staff">P. SUGANTHI- <a href="tel:9894683666">9894683666</a></td>
+            </tr>
+            <tr class="table-row">
+                <td class="td-sno">7</td>
+                <td class="td-route">7</td>
+                <td class="td-driver">VAITHIYANATHAN- <a href="tel:8778418943">8778418943</a></td>
+                <td class="td-staff">JAYA CHITRA- <a href="tel:7010637069">7010637069</a></td>
+            </tr>
+        </table>
+
+        <p class="note">
+        <h4>Contact the driver and the bus incharge in case of necessity</h4>
+        </p>
+        <form>
+            <label class="feedback-label">For more Details/Queries and Feedback related to CBUS please feel free to
+                write here: </label><br><br>
+            <textarea class="feedback-box" rows="10" cols="50" placeholder="Enter your comments"></textarea>
+            <input type="submit" value="Submit Feedback" class="submit-btn">
+            <input type="reset" value="Reset" class="reset-btn">
+        </form>
+    </div>
+    <script src="JS/contact.js"></script>
+    <footer class="footer">
+        <p>&copy; 2026 CBUS. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
