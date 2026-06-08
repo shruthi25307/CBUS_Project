@@ -1,0 +1,429 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px; /* left & right padding */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background: #0d6efd;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* Nav links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-right: 40px;
+  /* add breathing room so Contact Us isn’t overlapped */
+  /* Navbar adjustments */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* logo on left, nav links on right */
+  align-items: center;
+  padding: 12px 24px;
+  background: #0d6efd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  /* so hamburger can sit inside without overlap */
+}
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+.nav-links a:hover {
+  opacity: 0.8;
+}
+#whiteclr {
+  color: #666;
+  font-size: 14px;
+}
+body.night-theme #whiteclr {
+  color: white;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px; /* left & right padding */
+}
+
+/* Header */
+.tracking-header {
+  margin-bottom: 25px;
+}
+
+.tracking-header h2 {
+  color: #0d6efd;
+  margin-bottom: 6px;
+}
+
+.tracking-header p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Form Card */
+.tracking-card {
+  background: #fff;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 30px;
+}
+
+.tracking-form {
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+}
+
+.tracking-form label {
+  display: block;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.tracking-form select {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  min-width: 220px;
+}
+
+.tracking-form select:focus {
+  outline: none;
+  border-color: #0d6efd;
+}
+
+/* Button */
+.tracking-form button {
+  background: #0d6efd;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.tracking-form button:hover {
+  background: #0b5ed7;
+}
+
+/* Two Column Layout */
+.tracking-columns {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap; /* Stacks on smaller screens */
+}
+
+/* Left Column: Next Bus Departures */
+.next-bus-card {
+  flex: 1;
+  min-width: 250px;
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.next-bus-card h3 {
+  color: #0d6efd;
+  margin-bottom: 15px;
+}
+
+.bus-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bus-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: #f4f6f9;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.bus-name {
+  font-weight: 500;
+}
+
+.bus-timer {
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+/* Right Column: Live Bus Tracking */
+.tracking-right {
+  flex: 2;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Reuse your existing styles for cards */
+.tracking-card, .map-placeholder {
+  width: 100%;
+}
+
+
+/* Map Placeholder */
+.map-placeholder {
+  height: 350px;
+  background: #eef2ff;
+  border: 2px dashed #b6c4ff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  font-size: 15px;
+}
+/* Active navbar link */
+.nav-links a.active {
+  border-bottom: 2px solid #fff;
+}
+
+/* Navbar adjustments */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* logo on left, nav links on right */
+  align-items: center;
+  padding: 12px 24px;
+  background: #0d6efd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  /* so hamburger can sit inside without overlap */
+}
+/* Hamburger menu button */
+.hamburger {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 18px;
+  color: #ffffff;
+
+  background: linear-gradient(135deg, #1e7bff, #0d6efd);
+  border-radius: 12px;
+
+  cursor: pointer;
+  z-index: 1100;
+
+  box-shadow: 0 6px 18px rgba(13,110,253,0.35);
+  transition: all 0.3s ease;}
+
+
+  /* Dark mode hamburger style */
+body.night-theme .hamburger {
+  background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+  color: #4da3ff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+
+body.night-theme .hamburger:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+}
+
+.hamburger:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+  backdrop-filter: blur(2px);
+  display: none;
+  z-index: 999;
+  transition: opacity 0.3s ease;
+}
+
+.overlay.show {
+  display: block;
+}
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 260px;
+  height: 100%;
+  background: linear-gradient(180deg, #4da3ff, #0d6efd);
+  box-shadow: -5px 0 20px rgba(0,0,0,0.25);
+  padding: 25px 20px;
+  z-index: 999;
+
+  transform: translateX(100%);   /* fully hidden */
+  transition: transform 0.4s ease-in-out;
+
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.side-menu.open {
+  transform: translateX(0);   /* slides in */
+}
+
+.side-menu h3 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+}
+.side-menu ul li {
+  margin: 12px 0;
+}
+.side-menu ul li a,
+.side-menu ul li#themeToggle {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+.side-menu ul li a:hover,
+.side-menu ul li#themeToggle:hover {
+  opacity: 0.8;
+}
+
+/* Night theme adjustments for sidebar only */
+body.night-theme .side-menu {
+  background: #0a2a66; /* dark blue in night mode */
+}
+body.night-theme .side-menu ul li a,
+body.night-theme .side-menu ul li#themeToggle {
+  color: #e0e0e0;
+}
+
+
+/* Night theme */
+body.night-theme {
+  background: #000000; /* light grey */
+  color: #000;
+}
+
+body.night-theme .navbar {
+  background: #1f1f1f;
+}
+
+body.night-theme .card,
+body.night-theme .stat-card {
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.night-theme .footer {
+  background: #1f1f1f;
+}
+
+body.night-theme .hero {
+  background: 
+    linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
+    url("../SOURCE/cbus.png");
+  backdrop-filter: blur(2px);
+  background-position: center;   /* centers it */
+  background-repeat: no-repeat;  /* prevents repeating */
+}
+body.night-theme .side-menu {
+  background: #0a2a66;
+  /* dark blue in night mode */
+}
+
+body.night-theme .side-menu ul li a,
+body.night-theme .side-menu ul li#themeToggle {
+  color: #e0e0e0;
+}
+
+/* ===============================
+   TOAST - LIGHT MODE (GREEN)
+================================= */
+.track-toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  background: linear-gradient(135deg, #28a745, #218838);
+  color: #ffffff;
+
+  padding: 14px 20px;
+  border-radius: 12px;
+
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+
+  box-shadow: 0 8px 22px rgba(40,167,69,0.35);
+
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: all 0.4s ease;
+
+  z-index: 2000;
+}
+
+.track-toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* ===============================
+   TOAST - DARK MODE (DARK BLUE)
+================================= */
+body.night-theme .track-toast {
+  background: linear-gradient(135deg, #4da3ff, #0a2a66);
+  color: #e0f0ff;
+
+  box-shadow: 0 8px 22px rgba(0,0,0,0.6);
+}
+
+.footer {
+  background: #0d6efd;
+  color: #fff;
+  text-align: center;
+  padding: 3px 3px;
+  font-size: 14px;
+  margin-top: auto;
+}
