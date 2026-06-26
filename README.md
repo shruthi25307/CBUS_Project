@@ -14,7 +14,7 @@ CBUS was developed with the vision of creating a simple yet effective transporta
 
 This project is my first complete web development project and serves as a practical application of front-end development concepts, including responsive design, user interface development, and JavaScript-based interactivity.
 
-## Features
+## ✨ Features
 
 * Bus route information and route listings
 * Bus tracking interface
@@ -35,12 +35,24 @@ This project is my first complete web development project and serves as a practi
 * JavaScript (ES6)
 * Font Awesome
 
-## Screenshots
+## 📸 Screenshots
+
+## 🏠 Home Page
 <img width="1880" height="897" alt="image" src="https://github.com/user-attachments/assets/b9e053f7-9f0c-4927-bfed-7269cc798b17" />
+
+## 🗺️ Routes Page
 <img width="1877" height="901" alt="image" src="https://github.com/user-attachments/assets/15e55e8f-fd0d-4da9-bb1d-a758f89f66c8" />
+
+## 📢 Announcements Page
 <img width="1877" height="887" alt="image" src="https://github.com/user-attachments/assets/7c3d20fc-0c3f-432b-8a1c-3f8a65d5db3d" />
+
+## 📍 Track Page
 <img width="1886" height="876" alt="image" src="https://github.com/user-attachments/assets/18221f66-afa4-407a-a723-468f1b09c5ce" />
+
+## ℹ️ About Us Page
 <img width="1912" height="882" alt="image" src="https://github.com/user-attachments/assets/5a70dac3-c5b6-458d-b375-6da142c54d34" />
+
+## 📞 Contact Us Page
 <img width="1883" height="870" alt="image" src="https://github.com/user-attachments/assets/02a51f74-6996-48f3-baef-a8d1d31e8cb9" />
 
 ## Created by Shruthi T P
